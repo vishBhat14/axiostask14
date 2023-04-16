@@ -135,7 +135,7 @@ axios.get('https://jsonplaceholder.typicode.com/todos?_limit=5',{timeout:5000})
     return  Promise.reject(error);
   });
   
-  // AXIOS INSTANCE
+  // AXIOS INSTANCEs
   
   const axiosInstance=axios.create({
     //other custom settings
