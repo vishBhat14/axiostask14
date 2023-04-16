@@ -15,7 +15,7 @@ axios.get('https://jsonplaceholder.typicode.com/todos?_limit=5',{timeout:5000})
   .catch((err)=>console.error(err))
   }
   
-  // POST REQUEST
+  // POST REQUESTs
   function addTodo() {
    axios.post('https://jsonplaceholder.typicode.com/todos',{title:'new todo',completed:false})
        .then((res)=>showOutput(res))
